@@ -3,6 +3,10 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import ListProduct from '../parts/ListProduct'
+import ListBlog from '../parts/ListBlog'
+import Footer from '../parts/Footer'
+
+
 
 
 function SimpleSlider() {
@@ -87,7 +91,19 @@ function SimpleSlider() {
       </div>
 
       <ListProduct></ListProduct>
-    
+
+
+      <div className='mt-8'>
+        <img src='https://theme.hstatic.net/200000182297/1000887316/14/ms_banner_img3.jpg?v=1338'></img>
+      </div>
+
+
+
+      <ListBlog></ListBlog>
+
+      <Footer></Footer>
+
+      
     </div>
   );
 }

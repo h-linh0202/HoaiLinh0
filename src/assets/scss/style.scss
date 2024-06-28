@@ -35,7 +35,7 @@
 
             }
             img:hover{
-                transform: scale(1.1);
+                transform: scale(1.05);
                 cursor: pointer;
             }
         }
@@ -72,4 +72,53 @@
     .listProduct__h1{
         text-transform: uppercase;
     }
+}
+
+.next-slide, .pre-slide{
+    height: 40px;
+    width: 40px;
+    background: #0000009a;
+    color: #fff;
+    position: relative;
+    top: 37.5%;
+    transition: 0.1s all ease-in;
+    
+  }
+  
+  .next-slide:hover{
+    background: #000000d3;
+  
+  
+  
+  }.pre-slide:hover{
+    background: #000000d3;
+  
+  
+  }
+  .next-slide{
+    right: 57.5%;
+  }
+  .pre-slide{
+    left: 57.5%;
+  }
+  .h1-title{
+    text-transform: uppercase;
+  }
+  .hover-modal{
+    height: 83.33%;
+    transition: 0.3s all;
+    background: #00000070;
+  
+  }
+  
+  .pre-slide{
+    z-index: 1;
+  }
+
+// ListBlog
+
+.blog-image {
+  height: 370px;
+  background-size: cover;
+  object-fit: cover; /* Để hình ảnh không bị méo khi co dãn */
 }
