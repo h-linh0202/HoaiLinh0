@@ -19,7 +19,7 @@ function Footer () {
                         <FaBeer />?
                         </div>
                     </div>
-                    <div className='h-full w-1/3'></div>
+                    <div className='h-full w-1/3'>abc</div>
 
                 </div>
             </div>
