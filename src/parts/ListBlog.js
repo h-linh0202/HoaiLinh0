@@ -55,16 +55,16 @@ function ListBlog() {
     <div className="mx-auto mt-16">
       {/* Slider 1 */}
       <div className="mx-auto">
-        <h1 className="text-4xl uppercase font-bold mb-4 ">NHL BLOG</h1>
+        <h1 className="text-4xl uppercase font-bold mb-4 md:text-2xl uppercase font-bold mb-7 2xl:text-3xl lg:mb-2">NHL BLOG</h1>
         <h4 className='mb-8'>ĐÓN ĐẦU XU HƯỚNG, ĐỊNH HÌNH PHONG CÁCH</h4>
-        <div className="grid grid-cols-11 gap-0">
+        <div className="grid grid-cols-11 gap-0 xl:h-full " >
           
           <div className="col-span-1 h5">
             <button className='pre-slide ' onClick={prevSlide1}>{'<'}</button>
           </div>
           
           {listBlog.slice(currentIndex1, currentIndex1 + 3).map((product) => (
-            <div className="col-span-3 m-1 relative cursor-pointer blog-image" 
+            <div className="col-span-3 m-1 relative cursor-pointer blog-image "  
             
               onMouseEnter={() => handleMouseEnter(product.id, 'slider1')}
               onMouseLeave={() => handleMouseLeave('slider1')}
